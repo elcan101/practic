@@ -239,3 +239,56 @@
 
 
 
+//int score = 56;
+
+//IncreaseScore(ref  score);
+//Console.WriteLine(score);
+
+//static void IncreaseScore(ref int num1)
+//{
+//    num1 += 10;
+//}
+
+
+
+//string name;
+//int age;
+//string result;
+
+//Adult(out name, out age, out result);
+//Console.WriteLine(result);
+
+//static void Adult(out string name, out int age, out string result)
+//{
+//    age = 23;
+//    name = "Nahid";
+//    if (age > 18)
+//    {
+//         result = "name: " + name + " yetkindir";
+//    }else
+//    {
+//         result = "Name: " + name + " Yetkin deyil";
+//    }
+//}
+
+
+
+
+//double [] arr = { 24, 52, 60, 100 };
+//double[] arr1 = new double[arr.Length];
+
+//endirim(ref arr, out arr1);
+
+//for (int i = 0; i < arr1.Length; i++)
+//{
+//    Console.WriteLine(arr1[i]);
+//}
+//static void endirim(ref double[] arr, out double[] arr1)
+//{
+
+//     arr1 = new double[arr.Length];
+//    for (int i = 0; i < arr.Length; i++)
+//    {
+//        arr1[i]= arr[i]* 0.6;
+//    }
+//}
