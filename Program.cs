@@ -163,11 +163,79 @@
 //        case 8: return "31";
 //        case 9: return "31"; 
 //        case 10: return "31"; 
-//        case 11: return "31"; 
+//        case 11: return "31";      
 //        case 12: return "31";
 //        default: return "enter number";
 //    }
 //}
 
 //Console.WriteLine(DayOfMonth(month));
+
+//using System.Numerics;
+
+//int a = 5;
+//int b = 6;
+
+//Change(ref a, ref b);
+
+//Console.WriteLine(a);
+//Console.WriteLine(b);
+
+//static void Change( ref int num1, ref int num2)
+//{
+//    int temp = num1;
+//        num1 = num2;
+//        num2 = temp;
+//}
+
+
+
+//int a = 5;
+//int num1 = 0;
+//Addition(ref a);
+//Console.WriteLine(a);
+
+//static void Addition(ref int num1)
+//{
+
+//    num1 += 10;
+
+//}
+
+
+//int a = 5;
+//int result;
+
+//Addition(ref a, out result);
+
+//Console.WriteLine(a);
+//Console.WriteLine(result);
+
+//static void Addition(ref int num1, out int result)
+//{
+//    num1 += 10;
+//    result = num1;
+//}
+
+//3 ədəd qəbul edən metod yazın və ən böyük və ən kiçik ədədi out ilə qaytarsın. (out) FindMinMax(int a, int b, int c, out int min, out int max)
+
+
+
+//FindMinMax(5, 8, 20, out int min, out int max);
+
+//Console.WriteLine($"min: {min}, max: {max}");
+
+//static void FindMinMax(int a, int b, int c, out int min, out int max)
+//{
+//    min = a;
+//    max = a;
+
+//    if (b < min) min = b;
+//    if (c < min) min = c;
+
+//    if (b > max) max = b;
+//    if (c > max) max = c;
+//}
+
+
 
