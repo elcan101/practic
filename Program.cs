@@ -587,3 +587,38 @@
 //        arr1[i]= arr[i]* 0.6;
 //    }
 //}
+
+
+
+//string name;
+//string surname;
+//int age;
+//string email;
+//string pasword;
+//string username;
+
+//Register(out name, out surname, out age, out email, out pasword,out username);
+
+//static void  Register(out string  name, out string surname, out int age, out string email,out string pasword,out string username)
+//{
+//    Console.WriteLine("enter name");
+//     name =Console.ReadLine();
+//    Console.WriteLine("enter surname");
+//     surname =Console.ReadLine();
+//    Console.WriteLine("enter age ");
+//    age  = Convert.ToInt32(Console.ReadLine());
+//    Console.WriteLine("enter email");
+//     email = Console.ReadLine();
+//    Console.WriteLine("enter pasword");
+//    pasword  =Console.ReadLine();
+//    Console.WriteLine("enter username");
+//    string inputusername = Console.ReadLine();
+//    string date = DateTime.Now.ToString("ddMMyyyyHHmmss");
+//    username = inputusername + date;
+//    Console.WriteLine("name: " + name);
+//    Console.WriteLine("surname: " + surname);
+//    Console.WriteLine("age: " + age);
+//    Console.WriteLine("email: " + email);
+//    Console.WriteLine("pasword: " + pasword);
+//    Console.WriteLine("username: " + username);
+//}
