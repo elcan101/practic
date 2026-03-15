@@ -1,6 +1,14 @@
-﻿//string ad = Console.ReadLine();
+﻿
+
+
+
+
+
+//string ad = Console.ReadLine();
 //string soyad = Console.ReadLine();
 //Console.WriteLine("Welcome," + " " + ad + " " +soyad);
+
+
 
 //string a = Console.ReadLine();
 //int count = 0;
@@ -96,6 +104,7 @@
 
 
 
+
 //string Find(int num1)
 //{
 //    if (num1 >= 18) return "adult";
@@ -105,23 +114,24 @@
 //Console.WriteLine(result);
 
 
-//string Find(int num1)
+
+
+
+
+//string result = Find(20);
+//Console.WriteLine(result);
+
+//static string Find(int num1)
 //{
 //    if (num1 > 0) return "musbet";
 //    else if (num1 < 0) return "menfi";
 //    else return "0-a beraberdir";
 //}
-//string result = Find(20);
-//Console.WriteLine(result);
 
 
 
-//int cube(int num1)
-//{
-//    return (num1 * num1 * num1);
-//}
-//int result = cube(3);
-//Console.WriteLine(result);
+
+
 
 
 
@@ -171,11 +181,282 @@
 
 //Console.WriteLine(DayOfMonth(month));
 
-//using System.Numerics;
 
+
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = Convert.ToInt32(Console.ReadLine());
+//int c = Convert.ToInt32(Console.ReadLine());
+
+//FindType(a, b, c);
+
+//static void FindType(int a, int b, int c)
+//{
+//    if (a == b && b == c)
+//    {
+//        Console.WriteLine("berabertereflidir");
+//    }
+//    else if (a == b || b == c || a==c)
+//    {
+//        Console.WriteLine("beraberyanli");
+//    }
+//    else
+//    {
+//        Console.WriteLine("muxtelifterefli");
+//    }
+//}
+
+
+
+//int a = 34;
+
+//Oyun(a);
+
+//static void Oyun(int a)
+//{
+//    int c = 0;
+//    while (c < 5)
+
+//    {
+//        int b = Convert.ToInt32(Console.ReadLine());
+//        if (a == b)
+//        {
+//            Console.WriteLine("you won");
+//            break;
+//        }
+//        else
+//        {
+//            c++;
+//            if (c == 5) { Console.WriteLine("you lost all chance"); break; }
+//            Console.WriteLine("You losed. Enter again");
+//        }
+//    } 
+//}
+
+
+
+
+
+
+
+//Console.WriteLine("Sahesini tapmaq istediyiniz fiquru daxil edin (kvadrat, ucbucaq, dordbucaq):");
+//string fiqur = Console.ReadLine();
+
+//int a = 0;
+//int b = 0;
+//int h = 0;
+
+//Console.WriteLine("a daxil edin:");
+//a = Convert.ToInt32(Console.ReadLine());
+
+//if (fiqur == "kvadrat")
+//{
+//    b = a; // kvadratda b = a
+//}
+//else if (fiqur == "dordbucaq")
+//{
+//    Console.WriteLine("b daxil edin:");
+//    b = Convert.ToInt32(Console.ReadLine());
+//    h = b; // duzbucaqlida h = b
+//}
+//else if (fiqur == "ucbucaq")
+//{
+//    Console.WriteLine("h daxil edin:");
+//    h = Convert.ToInt32(Console.ReadLine());
+//}
+
+//Console.WriteLine("Sahe: " + Sahe(fiqur, a, b, h));
+
+//static int Sahe(string fiqur, int a, int b, int h)
+//{ 
+//    switch (fiqur)
+//    {
+//        case "kvadrat":
+//            return a * a;
+
+//        case "dordbucaq":
+//            return a * b;
+
+//        case "ucbucaq":
+//            return a * h / 2;
+
+//        default:
+//            return 0;
+//    }
+//}
+
+
+
+
+
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//Palindrom(a);
+//static void Palindrom(int a)
+//{
+//    int original = a;
+//    int reverse = 0;
+
+//    while (a > 0)
+//    {
+//        int digit = a % 10;          // son rəqəm
+//        reverse = reverse * 10 + digit;
+//        a = a / 10;                  // son rəqəmi sil
+//    }
+
+//    if (original == reverse)
+//    {
+//        Console.WriteLine("Palindromdur");
+//    }
+//    else
+//    {
+//        Console.WriteLine("Palindrom deyil");
+//    }
+//}
+
+
+
+
+
+
+//cube(100);
+//static void cube(int num1)
+//{
+//    if (num1 < 100 && num1 > 1)
+//    {
+//        Console.WriteLine (num1 * num1 * num1);
+//    }
+//    else
+//    {
+//        Console.WriteLine("1 ve 100 araliginda bir eded daxil edin");
+//    }
+//}
+
+
+
+
+
+
+
+//string name = Console.ReadLine();
+//string surname = Console.ReadLine();
+//Console.WriteLine(Call(name,surname));
+//static string Call(string name, string surname)
+//{
+//    return "Welcome " + name + " " + surname;   
+//}
+
+
+
+
+
+
+
+//string word = Console.ReadLine();
+//Console.WriteLine(FindCount(word));
+//static int  FindCount(string word)
+//{
+//    int count = 0;
+//    char[] chars = word.ToCharArray();
+//    for (int i = 0; i < chars.Length; i++)
+//    {
+//        count++;
+//    }return count;
+//}
+
+
+
+
+
+
+//Console.WriteLine("Bir meyve secirsiniz.3 cehd haqqiniz var.");
+//string answer = "alma";
+//string fruit = Console.ReadLine().ToLower();
+//Game( fruit, answer);
+
+//static void Game(string fruit, string answer)
+//{
+//    int i = 1;
+//    while (i<=3)
+//    {
+//        if (fruit == answer)
+//        {
+//            Console.WriteLine("you won");
+//            break;
+//        }
+//        else
+//        {
+//            Console.WriteLine("you lost");
+//            break;
+//        } i++;
+//    } 
+//}
+
+
+
+
+
+
+
+//int[] arr = new int[100];
+//Diz(arr);
+
+//static void Diz(int[] arr)
+//{
+//    for (int i = 0; i <= arr.Length; i++)
+//    {
+//        int number = i + 1;
+//        if (number % 7 == 0 || number % 10 == 7)
+//        {
+//            Console.WriteLine("Diz");
+//        }
+//        else
+//        {
+//            Console.WriteLine(number);
+//        }
+//    }
+//}
+
+
+
+
+
+
+
+//int[] arr ={10, 12, 22, 10, 32, 22, 16, 32, 22, 10, 11, 23, 32, 10, 10, 23, 23, 15};
+//int Count = FindCount(arr);
+//Console.WriteLine(Count);
+//static int FindCount(params int[] arr)
+//{
+//    int Count = 0;
+//    for (int i = 0; i < arr.Length; i++)
+//    {
+//        bool IsRepeat = false;
+//        for (int j = 0; j < i; j++)
+//        {
+//            if (arr[i] == arr[j])
+//            {
+//                IsRepeat = true;
+//                break;
+//            }
+//        }
+//        if (!IsRepeat)
+//        {
+//            Count++;
+//        }
+//    } return Count;
+//}
+
+
+
+
+
+
+
+
+//using System.Numerics
 //int a = 5;
 //int b = 6;
-
 //Change(ref a, ref b);
 
 //Console.WriteLine(a);
@@ -190,6 +471,10 @@
 
 
 
+
+
+
+
 //int a = 5;
 //int num1 = 0;
 //Addition(ref a);
@@ -197,29 +482,35 @@
 
 //static void Addition(ref int num1)
 //{
-
 //    num1 += 10;
-
 //}
 
 
-//int a = 5;
+
+
+
+
+//int a = 37;
+//int b = 6;
 //int result;
+//int qaliq;
+//Addition(ref a,ref b, out qaliq,out result);
 
-//Addition(ref a, out result);
+//Console.WriteLine("qaliq: " + qaliq);
+//Console.WriteLine("Netice: " + result);
 
-//Console.WriteLine(a);
-//Console.WriteLine(result);
-
-//static void Addition(ref int num1, out int result)
+//static void Addition(ref int num1,ref int num2, out int qaliq, out int result)
 //{
-//    num1 += 10;
-//    result = num1;
+//    qaliq= num1 % num2;
+//    result = num1/num2;
 //}
+
+
+
+
+
 
 //3 ədəd qəbul edən metod yazın və ən böyük və ən kiçik ədədi out ilə qaytarsın. (out) FindMinMax(int a, int b, int c, out int min, out int max)
-
-
 
 //FindMinMax(5, 8, 20, out int min, out int max);
 
@@ -239,6 +530,9 @@
 
 
 
+
+
+
 //int score = 56;
 
 //IncreaseScore(ref  score);
@@ -248,6 +542,8 @@
 //{
 //    num1 += 10;
 //}
+
+
 
 
 
@@ -285,7 +581,6 @@
 //}
 //static void endirim(ref double[] arr, out double[] arr1)
 //{
-
 //     arr1 = new double[arr.Length];
 //    for (int i = 0; i < arr.Length; i++)
 //    {
